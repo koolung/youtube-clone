@@ -7,7 +7,7 @@ const VideoDetail = ({ video }) => {
 
   console.log(video);
 
-  const videoSrc = "https://www.youtube.com/embed/${video.id.videoId}";
+  const videoSrc = "https://www.youtube.com/embed/$video.id.videoId"; //got rid of the curly braces bc of the warning
 
   return (
     <React.Fragment>
