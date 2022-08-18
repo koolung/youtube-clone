@@ -13,7 +13,7 @@ class App extends React.Component {
   };
 
   componentDidMount() {
-    this.handleSubmit("trending");
+    this.handleSubmit("hi");
   }
 
   onVideoSelect = (video) => {
